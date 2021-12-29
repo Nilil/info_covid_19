@@ -3,4 +3,5 @@
   gap: 10px;
   grid-auto-rows: auto;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  min-block-size: calc(100vh - 10vh - 10vh);
 }

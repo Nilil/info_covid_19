@@ -14,7 +14,7 @@ const Header = () => {
         <h3>Info Covid 19</h3>
       </Link>
       <div className="head__nav">
-        <Link to='/cases'>Cases</Link>
+        <Link to='/'>Cases</Link>
         <Link to='/vaccines'>Vaccines</Link>
       </div>
     </header>

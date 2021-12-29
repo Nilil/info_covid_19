@@ -1,0 +1,23 @@
+@use './variables/'as *;
+
+.home {
+
+  &-container {
+    color: #fff;
+    display: grid;
+    grid-template: repeat(2, auto) / 1fr;
+    text-align: center;
+  }
+
+  &__links {
+    display: grid;
+    grid-template: repeat(2, auto) / 1fr;
+
+    &--buttons {
+      margin-top: 50px;
+      padding: 5%;
+      background-color: #fff;
+      border-radius: 500px;
+    }
+  }
+}
