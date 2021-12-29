@@ -1,0 +1,20 @@
+@use './variables'as *;
+
+@mixin block-display {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  block-size: 10vh;
+  background-color: $color-secondary;
+}
+
+@mixin links {
+  text-decoration: none;
+  background-color: $color-bg;
+  padding: 3%;
+  color: $color-secondary;
+
+  &:hover {
+    opacity: .7;
+  }
+}

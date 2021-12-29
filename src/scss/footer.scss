@@ -1,0 +1,15 @@
+@use './variables/'as *;
+
+.foot {
+  @include block-display;
+  text-align: center;
+
+  &>p {
+    margin: 0 $margin-wide;
+    inline-size: 40%;
+  }
+
+  & a {
+    @include links;
+  }
+}

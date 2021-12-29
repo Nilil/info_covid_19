@@ -1,0 +1,20 @@
+@use './variables'as *;
+
+.card {
+
+  &-container {
+    border: 3px solid $color-secondary;
+    background-color: $color-primary;
+    margin: $margin-total;
+
+    & p {
+      margin: 2%;
+    }
+  }
+
+  &__title {
+    margin: $margin-total 0;
+    text-align: center;
+  }
+
+}
