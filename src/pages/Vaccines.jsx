@@ -1,16 +1,16 @@
 import React, { Fragment } from 'react';
 
-import { Layout } from '../containers/Layout';
+import { CardsLayout } from '../containers/CardsLayout';
 import { Api } from '../components/Api';
 
 const Vaccines = () => {
   return(
     <Fragment>
-      <Layout>
+      <CardsLayout>
         <Api
           display = 'vaccines'
         />
-      </Layout>
+      </CardsLayout>
     </Fragment>
   )
 };

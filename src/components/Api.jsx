@@ -36,6 +36,7 @@ const Api = ({ display }) => {
     <>
 
       {/* Using display's value render just one component */}
+      {/* A value who works as a key in needed :/ */}
       { display === 'cases' ?
 
       Object.values(cassesAnswer).map(ans => (

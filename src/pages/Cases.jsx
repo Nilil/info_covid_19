@@ -1,16 +1,16 @@
 import React, { Fragment } from 'react';
 
-import { Layout } from '../containers/Layout';
+import { CardsLayout } from '../containers/CardsLayout';
 import { Api } from '../components/Api';
 
 const Cases = () => {
   return(
     <Fragment>
-      <Layout>
+      <CardsLayout>
         <Api
           display = 'cases'
         />
-      </Layout>
+      </CardsLayout>
     </Fragment>
   )
 };
